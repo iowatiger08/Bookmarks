@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+	<changeSet id="DOCBOOKMARK_ROWS" author="tdillon"
+		runOnChange="true">
+		<loadUpdateData schemaName="DOCBOOKMARKS" tableName="DOC_BOOKMARK"
+			file="liquibase/data/docBookmarksNoSQL.csv"
+			primaryKey="MARK_ID">
+			<column name="MARK_ID" type="NUMERIC" />
+			<column name="MARK_NAME" type="STRING" />
+			<column name="INTERNAL_NAME" type="STRING" />
+			<!-- <column name="MARK_SQL" type="STRING" /> -->
+			<column name="DOC_SUBTYPE_ID" type="NUMERIC" defaultValueNumeric="0"/>
+			<column name="DOC_TYPE_NAME" type="STRING" />
+			
+		</loadUpdateData>
+	</changeSet>
+
+</databaseChangeLog>
+    

@@ -1,0 +1,452 @@
+MARK_ID,MARK_NAME,INTERNAL_NAME,DOC_SUBTYPE_ID,DOC_TYPE_NAME
+55,Member Dependent Address,MEMBER_DEPENDENT_ADDRESS,-1,Member
+56,Person Address,PERSON_ADDRESS,-1,Member
+58,Dependent Info,DEPENDENT_INFO,-1,Member
+142,Employer Address,EMPLOYER_ADDRESS,-1,Employer
+81,Member Adjustments Grid,MEMBER_ADJUSTMENTS_GRID,-1,Member
+118,Member Address Grid 5,MEM_ADDR_GRID_5,-1,Member
+119,Member Address Grid 6,MEM_ADDR_GRID_6,-1,Member
+59,Member Dependent Info,MEMBER_DEPENDENT_INFO,-1,Member
+82,Contrib Sum,Contrib_Sum,-1,Member
+83,Total Empl Amt Due,Ttl_Empl_Amt_Due,-1,Member
+84,Inserted By,INSERTED_BY,-1,Member
+140,Member Old Address,MEMBER_OLD_ADDRESS,-1,Member
+74,Current Date(mmddyyyy),CURRENT_DATE1,-1,Employer
+120,Reporting Official Name Init,REP_OFF_NAME_INIT,-1,Employer
+122,Dependent Info Init,DEPENDENT_INFO_INIT,-1,Member
+123,Member Information,MEMBER_INFORMATION,-1,Member
+124,Member Address Grid 7,MEM_ADDR_GRID_7,-1,Member
+125,Member Address Grid 8,MEM_ADDR_GRID_8,-1,Member
+126,Member Address Grid 9,MEM_ADDR_GRID_9,-1,Member
+134,Final report Date,FINAL_REPORT_DATE,-1,Employer
+135,Next Due Date,NEXT_DUE_DATE,-1,Employer
+104,Reporting Official Name,REP_OFF_NAME,-1,Employer
+75,Compliance Issue,COMPLIANCE_ISSUE,-1,Employer
+77,Review Date,REVIEW_DATE,-1,Employer
+78,Reporting Officer Address,REPORTING_OFFICER_ADDRESS,-1,Employer
+92,Member Name Info,MEMBER_NAME_INFO,-1,Member
+93,Member Address Info,MEMBER_ADDRESS_INFO,-1,Member
+85,Member Address Upper,MEMBER_ADDRESS_UPPER,-1,Member
+86,Member Dependent Address Upper,MEMBER_DEPENDENT_ADDRESS_UPPER,-1,Member
+87,Person Address Upper,PERSON_ADDRESS_UPPER,-1,Member
+89,Dependent Info Upper,DEPENDENT_INFO_UPPER,-1,Member
+90,Member Dependent Info Upper,MEMBER_DEPENDENT_INFO_UPPER,-1,Member
+91,Employer Information Upper,EMPLOYER_INFORMATION_UPPER,-1,Employer
+141,Member Address Grid,MEM_ADDR_GRID,-1,Member
+69,Member Self Service Document Page Link,V3_MEMBER_SS_WEBSITE_DOCUMENT_PAGE_INFO,-1,Member
+51,Rcpt Address,RCPT_ADDRESS,-1,Member
+52,User Info,USER_INFO,-1,Member
+54,Member Address,MEMBER_ADDRESS,-1,Member
+121,Member Info Init,MEMBER_INFO_INIT,-1,Member
+600,BENEFICIARY_SALUTATION_1,BENEFICIARY_SALUTATION_1,-1,Pension
+601,User Info 1,USER_INFO_1,-1,Pension
+602,Next Payroll Date,NEXT_PAYROLL_DATE,-1,Pension
+182,Taxable Amount,TAXABLE_AMOUNT,-1,Member
+183,Non-Taxable Amount,NON_TAXABLE_AMOUNT,-1,Member
+184,Federal WH Amount,FEDERAL_WH_AMOUNT,-1,Member
+185,State WH Amount,STATE_WH_AMOUNT,-1,Member
+186,Member ID,MEMBER_ID,-1,Member
+187,Full User Info,FULL_USER_INFO,-1,Member
+188,Member Meeting Details,MEM_MEETING_DETAILS,-1,Member
+189,Conference Location Address,CONF_LOCATION_ADDRESS,-1,Employer
+603,Age 70 continued working,AGE_70_CONTINUED_WORKING,-1,Member
+525,Pension Bene Expiry Date,PEN_BENE_EXP_DATE,-1,Pension
+526,Beneficiary Summary - AMDB,BEN_SUMMARY_BLOCK_AMDB,-1,Pension
+527,AP Address Info,AP_ADDR_INFO,-1,Pension
+529,AP Info,AP_INFO,-1,Pension
+530,MonthYear of Last Payment,MONTH_YEAR_LAST_PAYMENT,-1,Pension
+531,AP Name - QDRO type,AP_NAME_QDRO,-1,Pension
+533,Pay By Date,PAY_BY_DATE,-1,Pension
+534,AMDB Pension FME Month,AMDB_PENSION_FME_MONTH,-1,Pension
+61,Employer Information,EMPLOYER_INFORMATION,-1,Employer
+99,Member Alt ID,MEMBER_ALT_ID,-1,Member
+95,Dependent Cnt,DEPENDENT_CNT,-1,Member
+96,Beneficiary Cnt,BENEFICIARY_CNT,-1,Member
+144,Reporting Official Name By Stop Date,RO_NAME_BY_STOPDATE,-1,Employer
+266,Member Pension,MEMBER_PENSION,-1,Member
+541,Static Bookmarks 1,STATIC_BOOKMARKS_1,-1,Member
+128,Beneficiary Statement List,BENEFICIARY_STMT_LIST,-1,Member
+130,Previous Year,PREVIOUS_YEAR,-1,Employer
+131,Employer Contact List,EMPLOYER_CONTACT_LIST,-1,Employer
+57,Member Info,MEMBER_INFO,-1,Member
+159,User Title Info,USER_TITLE,-1,Employer
+105,Reporting Official Name Upper,REP_OFF_NAME_UPPER,-1,Employer
+528,AP Dates Info,AP_DATES_INFO,-1,Pension
+553,Beneficiary Summary Months New,BEN_SUMMARY_MONTHS_NEW,-1,Pension
+106,Reporting Officer Address Upper,REPORTING_OFFICER_ADDRESS_UPPER,-1,Employer
+107,Employer Address upper,EMPLOYER_ADDRESS_UPPER,-1,Employer
+108,Employer Contact Info,EMPLOYER_CONTACT_INFO,-1,Employer
+138,Eft Info,EFT_INFO,-1,Employer
+158,Employee Under 6 Month Instruction Letter Table,EMP_UNDER_SIX_MONTH_INSTR_LETTER_TABLE,93,Employer
+109,Merge Employer Info,MERGE_EMPLOYER_INFO,-1,Employer
+114,Member Address Grid 1,MEM_ADDR_GRID_1,-1,Member
+115,Member Address Grid 2,MEM_ADDR_GRID_2,-1,Member
+116,Member Address Grid 3,MEM_ADDR_GRID_3,-1,Member
+117,Member Address Grid 4,MEM_ADDR_GRID_4,-1,Member
+163,Member Job Category,MEMBER_JOB_CATEGORY,-1,Member
+164,Owner Name,OWNER_NAME,-1,Employer
+165,Member Custom Comments,MEMBER_CUSTOM_COMMENTS,-1,Member
+137,Member Beneficiary Info Init,MEMBER_BENEFICIARY_INFO_INIT,-1,Member
+660,Reporting Official Full Name,REPORTING_OFFICIAL_NAME,-1,Employer
+88,Member Info Upper,MEMBER_INFO_UPPER,-1,Member
+227,Representative Payee Address,REPRESENTATIVE_PAYEE_ADDRESS,-1,Member
+229,SSD First Request Date,SSD_FIRST_REQUEST_DATE,-1,Member
+230,SSD Second Request Date,SSD_SECOND_REQUEST_DATE,-1,Member
+231,AP_Complete_Name_Reminder,AP_COMPLETE_NAME_REM,-1,Member
+232,AP_Complete_Address_Reminder,AP_COMPLETE_ADDR_REMINDER,-1,Member
+233,Last4_SSN,LAST4_SSN,-1,Member
+234,Meeting_Date,MEETING_DATE,-1,Member
+235,Meeting_Time,MEETING_TIME,-1,Member
+236,Refund Date Paid,REFUND_DATE_PAID,-1,Member
+237,Payee_First_Name_Last_Name,PAYEE_FIRST_LAST_NAME,-1,Member
+239,Outdated_Warrant_Issue_Date2,OUTDATED_WARRENT_ISSUE_DATE2,-1,Member
+240,Outdated_Warrant_Number2,OUTDATED_WARRENT_NUMBER2,-1,Member
+241,Outdated_Warrant_Amt2,OUTDATED_WARRENT_AMOUNT2,-1,Member
+242,Outdated_Warrant_Issue_Date3,OUTDATED_WARRENT_ISSUE_DATE3,-1,Member
+243,Outdated_Warrant_Number3,OUTDATED_WARRENT_NUMBER3,-1,Member
+244,Outdated_Warrant_Amt3,OUTDATED_WARRENT_AMOUNT3,-1,Member
+245,Outdated_Warrant_Issue_Date4,OUTDATED_WARRENT_ISSUE_DATE4,-1,Member
+246,Outdated_Warrant_Number4,OUTDATED_WARRENT_NUMBER4,-1,Member
+247,Outdated_Warrant_Amt4,OUTDATED_WARRENT_AMOUNT4,-1,Member
+248,Outdated_Warrant_Issue_Date5,OUTDATED_WARRENT_ISSUE_DATE5,-1,Member
+481,Preliminary Letter Dates Info,PENSION_DATES_INFO,-1,Pension
+482,Pension Option Details,PENSION_OPTION_BM,-1,Pension
+483,Primary Beneficiary List,PRIMARY_BEN_LIST,-1,Pension
+201,Conference Date,CONFERENCE_DATE,-1,Member
+202,Facility Name,FACILITY_NAME,-1,Member
+203,Facility Address,FACILITY_ADDRESS,-1,Member
+484,Secondary Beneficiary List,SECONDARY_BEN_LIST,-1,Pension
+485,Static Bookmarks,STATIC_BOOKMARKS,-1,Pension
+205,Conference Start Year,CONFERENCE_START_YEAR,123,Employer
+206,Conference End Year,CONFERENCE_END_YEAR,123,Employer
+207,Conference Start Month,CONFERENCE_START_MONTH,123,Employer
+208,Conference End Month,CONFERENCE_END_MONTH,123,Employer
+209,Registration Due Date,DUE_DATE,123,Employer
+210,Employer Contact Email,EMP_CONTACT_EMAIL,123,Employer
+211,Employer Training Table,EMP_TRAIN_NOTIFICATION_TABLE,-1,Employer
+212,Legal Mark,Legal_Mark,124,Legal
+214,Contact Address Details,EMP_CONTACT_DETAILS,123,Employer
+215,AP Info Name,AP_INFO_NAME,-1,Member
+217,AP Mail Date,AP_MAIL_DATE,-1,Member
+218,SAP Info Name,SAP_INFO_NAME,-1,Member
+219,SAP Info Address,SAP_INFO_ADDRESS,-1,Member
+220,Date_Appeal_Recieved,DATE_APPEAL_RCVD,-1,Member
+221,Date Annual Disability Verification letter,ANNUAL_DISB_LETTER_DATE,-1,Member
+222,Court Order Number,COURT_ORDER_NUMBER,-1,Member
+223,Due Date AP,DUE_DATE_AP,-1,Member
+224,Due Date SAP,DUE_DATE_SAP,-1,Member
+225,Representative Payee Name,REPRESENTATIVE_PAYEE_NAME,-1,Member
+226,Authorized Agent,AUTHORIZED_AGENT,-1,Member
+249,Outdated_Warrant_Number5,OUTDATED_WARRENT_NUMBER5,-1,Member
+250,Outdated_Warrant_Amt5,OUTDATED_WARRENT_AMOUNT5,-1,Member
+251,Outdated_Warrant_Issue_Date6,OUTDATED_WARRENT_ISSUE_DATE6,-1,Member
+252,Outdated_Warrant_Number6,OUTDATED_WARRENT_NUMBER6,-1,Member
+253,Outdated_Warrant_Amt6,OUTDATED_WARRENT_AMOUNT6,-1,Member
+254,Member Pension EFT Bank Name,MEMBER_PENSION_EFT_BANK_NAME,-1,Member
+255,Type of Payment,TYPE_OF_PAYMENT,-1,Member
+486,Service Credits Table,SERVICE_CREDITS_TABLE,-1,Pension
+487,Disbursement EFT Details,DISBURSE_EFT_DETAILS,-1,Pension
+488,Contingent Annuitant,CONTINGENT_ANNUITANT,-1,Pension
+489,Last Occupation Code,LAST_OCC_CODE,-1,Pension
+490,Benefit Summary Block,BEN_SUMMARY_BLOCK,-1,Pension
+491,Option 2 Present Age,Option2_Present_Age,-1,Pension
+492,Service Credits Table1,SERVICE_CREDITS_TABLE_1,-1,Pension
+495,Disability_Date_RRet,DISABILTIY_DATE_RRET,-1,Member
+496,Mem_Inv_RRet,MEM_INV_RRET,-1,Member
+497,EFT AMDB,EFT_AMDB,-1,Member
+500,Member Pension Current Month,MEMBER_PENSION_CURRENT_MONTH,-1,Pension
+501,Beneficiary Summary Months Secondary App,BEN_SS_SUMMARY_MONTHS_SECOND_APP,-1,Member
+493,Current Month For Recalc,CUR_MON_FOR_RECALC,-1,Member
+494,BFR Non Covered Month,BFR_NON_COVERED_MONTH,-1,Member
+502,Beneficiary SS Summary Months,BEN_SS_SUMMARY_MONTHS,-1,Pension
+503,Pension Dates Info,PENSION_DATES_INFORMATION,-1,Member
+504,Preliminary Letter Benefit Info 1,PENSION_BENEFIT_INFO_1,-1,Pension
+505,Outdated_Warrant_Issue_Date1,OUTDATED_WARRANT_ISSUE_DATE1,-1,Member
+506,Outdated_Warrant_Number1,OUTDATED_WARRANT_NUMBER1,-1,Member
+461,Option 1 SS,OPT1_SS,-1,Member
+462,Option 1 Death Benefit SS,OPT1_DEATH_BEN_SS,-1,Member
+463,Option 3 SS,OPT3_SS,-1,Member
+464,Option 4 SS,OPT4_SS,-1,Member
+465,Option 5 SS,OPT5_SS,-1,Member
+466,Option 6 SS,OPT6_SS,-1,Member
+467,SS Benefit SS,SS_BENE_SS,-1,Member
+468,Age 62 Date,AGE_62_DATE,-1,Member
+469,Post 62 Option 7 SS,POST_62_OPT7_SS,-1,Member
+470,Pre 62 Option 7 SS,PRE_62_OPT7_SS,-1,Member
+471,Post 62 C/A Option 7_SS,POST_62_CA_OPT7_SS,-1,Member
+472,Investment SS,INVESTMENT_SS,-1,Member
+473,Option 2 SS,OPT2_SS,-1,Member
+474,Winning Average Salary SS,WIN_AVG_SAL,-1,Member
+475,Regular Years,REG_YEARS,-1,Member
+476,Sheriff Years,SHERIFF_YEARS,-1,Member
+477,Protection Years,PROTECTION_YEARS,-1,Member
+478,Disability Date SS,DISABILITY_DATE_SS,-1,Member
+479,Benefit Summary Block SS,BEN_SUMMARY_BLOCK_SS,-1,Member
+256,AP Info City,AP_INFO_CITY,-1,Member
+257,AP Info State,AP_INFO_STATE,-1,Member
+258,AP Info Zip,AP_INFO_ZIP,-1,Member
+259,SAP Info City,SAP_INFO_CITY,-1,Member
+260,SAP Info State,SAP_INFO_STATE,-1,Member
+261,SAP Info Zip,SAP_INFO_ZIP,-1,Member
+262,EFT Bank Name,EFT_BANK_NAME,-1,Member
+263,Discont or New Monthly Disb Reduction Amount,DISCONT_OR_NEW_MONTHLY_DISB_REDUCTION_AMOUNT,-1,Member
+264,Employer Meeting Details,EMP_MEETING_DETAILS,-1,Employer
+265,CURRENT TIME hh mm ss,CURRENT_TIME_HH_MM_SS,-1,Pension
+53,Current Date,CURRENT_DATE,-1,Member
+555,Pension Option Type Percent,PEN_OPT_TYPE_PER,-1,Member
+272,Retired ReEmployment Years,RETIRED_REEMP_YEARS,-1,Pension
+273,Current Payroll Date,CURRENT_PAYROLL_DATE,-1,Pension
+437,Address With Pension Application ID,ADDRESS_WITH_PENSION_APP_ID,-1,Pension
+480,Preliminary Letter Benefit Info,PENSION_BENEFIT_INFO,-1,Pension
+498,FME_UPD,FME_UPD,-1,Member
+499,DISBURSE_EFT_CHECK_REEMP,DISBURSE_EFT_CHECK_REEMP,-1,Member
+333,BFR_Covered_Month,BFR_COVERED_MONTH,-1,Pension
+336,Benefit Estimate Request,BENEFIT_ESTIMATE_REQUEST,139,Pension
+337,Next Month Federal,NEXT_MONTH_FEDERAL,-1,Member
+338,Next Month State,NEXT_MONTH_STATE,-1,Member
+339,WH Change Month,WH_CHANGE_MONTH,-1,Member
+340,Previous Federal Filing Status,PREV_FED_FILING_STATUS,-1,Member
+341,Next Federal Filing Status,NEXT_FED_FILING_STATUS,-1,Member
+342,Previous State Filing Status,PREV_STATE_FILING_STATUS,-1,Member
+343,Next State Filing Status,NEXT_STATE_FILING_STATUS,-1,Member
+344,Previous Federal,PREVIOUS_FEDERAL,-1,Member
+345,Previous State,PREVIOUS_STATE,-1,Member
+346,Previous Net,PREVIOUS_NET,-1,Member
+508,CAInfo,CAInfo,116,Member
+598,Member Address City State Zip,MEMBER_ADDRESS_CITY_ST_ZIP,-1,Member
+599,Member Salutation,PAYEE_SALUTATION,-1,Member
+512,MemberPensionOpt6Amt,MemberPensionOpt6Amt,116,Member
+513,MemberPensionOpt2Amt,MemberPensionOpt2Amt,116,Member
+514,Deathdate,Deathdate,116,Member
+410,Disability Check,DISABILITY_CHECK,-1,Member
+507,Outdated_Warrant_Amt1,OUTDATED_WARRANT_AMOUNT1,-1,Member
+517,IPERS logo Full Image,IPERS_LOGO_OLD,-1,Pension
+518,CA Percentage,CA_PERCENTAGE,-1,Member
+317,FEDERAL_WITHHOLDING,FEDERAL_WITHHOLDING,-1,Pension
+318,STATE_WITHHOLDING,STATE_WITHHOLDING,-1,Pension
+319,LUMPSUM_REFUND_AMOUNT,LUMPSUM_REFUND_AMOUNT,-1,Pension
+320,TAXABLE_ROLLOVER_AMT,TAXABLE_ROLLOVER_AMT,-1,Pension
+321,NON_TAXABLE_ROLLOVER_AMT,NON_TAXABLE_ROLLOVER_AMT,-1,Pension
+519,Beneficiary Summary Months,BEN_SUMMARY_MONTHS,-1,Pension
+520,FME Year,FME_YEAR,-1,Pension
+322,RMD_AMOUNT,RMD_AMOUNT,-1,Pension
+323,MONTLY_ANNUITY_INCREASE,MONTLY_ANNUITY_INCREASE,-1,Pension
+395,Total Quartely Service Credit,TOT_QUAR_SER_CREDIT,-1,Member
+389,Service Purchase Amount,SERVICE_PURCHASE_AMOUNT,-1,Member
+390,Child Support Agency Name,CHILD_SUPPORT_AGENCY_NAME,-1,Member
+397,EFT SSD,EFT_SS,-1,Member
+558,Outdated_Warrant_1,OUTDATED_WARRENT_1,-1,Member
+559,Outdated_Warrant_2,OUTDATED_WARRENT_2,-1,Member
+560,Outdated_Warrant_3,OUTDATED_WARRENT_3,-1,Member
+329,Disability FME,DISABILITY_FME,-1,Pension
+331,CURRENT BENEFIT AMOUNT,CURRENT_BENEFIT_AMOUNT,-1,Pension
+332,NEW BENEFIT AMOUNT,NEW_BENEFIT_AMOUNT,-1,Pension
+394,Total Overpayment Amount For Cond,TOTAL_OVERPAYMENT_AMOUNT_FOR_COND,-1,Member
+157,User Information (IPERS),USER_INFO_IPERS,-1,Employer
+347,Next Net,NEXT_NET,-1,Member
+348,Next Federal,NEXT_FEDERAL,-1,Member
+349,Next State,NEXT_STATE,-1,Member
+350,Outdated_Warrant_Grid,OUTDATED_WARRANT_GRID,-1,Member
+351,Contact Complete Info,CONTACT_COMPLETE_INFO,-1,Employer
+330,PENSION OPTION,PEN_OPTION,-1,Pension
+60,Person Information,PERSON_INFO,-1,Member
+377,OverPayment Reduction Amount,OVERPMT_REDUCTION_AMT,-1,Member
+391,Child Support Agency Address,CHILD_SUPPORT_AGENCY_ADDRESS,-1,Member
+392,IRS Agency Name,IRS_AGENCY_NAME,-1,Member
+393,IRS Agency Address,IRS_AGENCY_ADDRESS,-1,Member
+398,EFT IPERSRET,EFT_IPERSRET,-1,Member
+382,Benefits_Expiry_RRet,BENEFITS_EXPIRY_RRET,-1,Member
+399,Winning Option 2 Amt,WIN_OPTION_2,-1,Member
+400,FME,FME,-1,Member
+401,Opt1 DB Block Cond,OPT1_DB_BLOCK,-1,Member
+402,EFT_INFORMATION,EFT_INFORMATION,-1,Member
+403,Institution Name Power Expired,INSTITUTION_NAME_PE,-1,Member
+404,Institution Name,INSTITUTION_NAME,-1,Member
+405,Last Month,LAST_MONTH,-1,Member
+406,Member Pension New Option,MEMBER_PENSION_NEW_OPTION,-1,Member
+407,Member Pension Old Option,MEMBER_PENSION_OLD_OPTION,-1,Member
+408,Option 2,OPT2,-1,Member
+409,Winning Opt2 Amount SSD,SSD_WIN_OPT_2_AMT,-1,Member
+411,Option 6 CA Percent,OPT6_CA_PCT,-1,Member
+412,CA Block,CA_BLOCK,-1,Member
+413,Ben Block,BEN_BLOCK,-1,Member
+414,Benefit Summary Block SS New,BEN_SUMMARY_BLOCK_SS_NEW,-1,Member
+416,Disburse Eft Check,DISBURSE_EFT_CHECK,-1,Member
+352,Pension Application Member Address,PENSION_MEMBER_ADDRESS,-1,Pension
+353,Member Adr,MEMBER_ADR,85,Member
+356,ADB Information,ADB_GENERIC_INFO,-1,Pension
+357,ADB Information - Block 1,ADB_BLOCK1_INFO,-1,Pension
+358,ADB Information - Block 2,ADB_BLOCK2_INFO,-1,Pension
+359,ADB Information - Block 3,ADB_BLOCK3_INFO,-1,Pension
+360,ADB Information - Block 3_2,ADB_BLOCK32_INFO,-1,Pension
+361,ADB Information - Block 4,ADB_BLOCK4_INFO,-1,Pension
+362,ADB Information - Block 5,ADB_BLOCK5_INFO,-1,Pension
+363,ADB Information - Block 6,ADB_BLOCK6_INFO,-1,Pension
+364,ADB Information - Block 6_2,ADB_BLOCK62_INFO,-1,Pension
+365,ADB Information - others,ADB_BLOCK_OTHER_INFO,-1,Pension
+543,Pension Secondary Beneficiary Count,PENSION_SEC_BEN_COUNT,-1,Member
+544,Option 1 SS New,OPT1_SS_NEW,-1,Member
+545,Investment SS New,INVESTMENT_SS_NEW,-1,Member
+378,Conference Date Con,CONFERENCE_DATE_CON,-1,Member
+546,Option 3 SS New,OPT3_SS_NEW,-1,Member
+547,Option 4 SS New,OPT4_SS_NEW,-1,Member
+548,Option 5 SS New,OPT5_SS_NEW,-1,Member
+549,Winning Average Salary SS New,WIN_AVG_SAL_NEW,-1,Member
+379,Facility Name Con,FACILITY_NAME_CON,-1,Member
+417,Termination Date,TERMINATION_DATE,-1,Member
+550,Winning Opt2 Amount SSD New,SSD_WIN_OPT_2_AMT_NEW,-1,Member
+551,Option 2 SS New,OPT2_SS_NEW,-1,Member
+380,Facility Address Con,FACILITY_ADDRESS_CON,-1,Member
+381,Emp Name,EMP_NAME,-1,Employer
+383,Ret ReEmpl Original Option,ORIGINAL_OPTION,-1,Member
+384,Retired ReEmp Option1 DB Total,RER_OPTION_1_DB_TOTAL,-1,Member
+385,Service Purchase Payment,SERVICE_PURCHASE_PAYMENT,-1,Member
+386,Ns_SCs_Processed,SCs_PROCESSED,-1,Member
+387,Ns_SCs_Remaining,SCs_REMAINING,-1,Member
+388,Service Purchase Date,SERVICE_PURCHASE_DATE,-1,Member
+418,Date of Last Paycheck,DATE_OF_LAST_PAYCHECK,-1,Member
+419,Reporting Official Info for RRW Letter,REP_OFF_INFO_RRW,-1,Member
+458,Pension Primary Beneficiary,PENSION_PRIMARY_BENEFICIARY,-1,Member
+459,Pension Secondary Beneficiary,PENSION_SECONDARY_BENEFICIARY,-1,Member
+460,Benefits Expiry SS,BENEFITS_EXPIREY_SS,-1,Member
+428,AE Lump Sum Taxable(Estimate),AE_LUMPSUM_TAXABLE_AMT,-1,Member
+429,AE Lump Sum Amount(Total Inv),AE_LUMPSUM_AMT_TOT_INV,-1,Member
+430,AE Lump Sum_Non-Taxable(Fed Tax Contrib),AE_LUMPSUM_NON_TAX_AMT,-1,Member
+432,Page Name,PAGE_NAME,-1,Member
+433,FME from Pension App,FME_PENSION_APP,-1,Pension
+434,ADB EFT Information,ADB_EFT_INFO,-1,Pension
+435,Member User or Lob User,MEMBER_LOB_USER,-1,Member
+438,Benefit Summary Block SS for Secondary App,BEN_SUMMARY_BLOCK_SS_SECOND_APP,-1,Member
+552,Option 1 Death Benefit SS New,OPT1_DEATH_BEN_SS_NEW,-1,Member
+554,Money Purchase Eligible block,MPNE_BLOCK,-1,Member
+439,Current Payroll,CURRENT_PAYROLL,-1,Member
+440,Disb Eft Info,DISB_EFT_INFO,-1,Member
+441,Last Month and Year of Service,LAST_MONTH_YEAR,-1,Member
+442,FME Month SS,FME_MONTH_SS,-1,Member
+443,Last Benefit,LAST_BENEFIT,-1,Member
+444,Last Adjustment,LAST_ADJUSTMENT,-1,Member
+445,Last Disability Offset,LAST_DISABILITY_OFFSET,-1,Member
+446,Last Federal,LAST_FEDERAL,-1,Member
+422,Member Death Date,MEMBER_DEATH_DATE,-1,Member
+423,Member Self Service User Name,MSS_USER_NAME,-1,Member
+424,Member Self Service System Date,MSS_SYS_DATE,-1,Member
+425,Member Self Service Member Name,MSS_MEMBER_NAME,-1,Member
+426,MSS Forgot User Name,MSS_FORGOT_USER_NAME,-1,Member
+427,W4 Withholding info,W4_WITHHOLDING_INFO,-1,Member
+436,ADB Monthly Annutiy Amount,ADB_MONTHLY_ANNUITY_AMT,-1,Pension
+447,Last State,LAST_STATE,-1,Member
+448,Last Check Fee,LAST_CHECK_FEE,-1,Member
+449,Last Net Benefit,LAST_NET_BENEFIT,-1,Member
+450,Current Month,CURRENT_MONTH,-1,Member
+451,Current Benefit,CURRENT_BENEFIT,-1,Member
+452,Current Adjustment,CURRENT_ADJUSTMENT,-1,Member
+453,Current Disability Offset,CURRENT_DISABLITY_OFFSET,-1,Member
+454,Current Federal,CURRENT_FEDERAL,-1,Member
+455,Current State,CURRENT_STATE,-1,Member
+456,Current Check Fee,CURRENT_CHECK_FEE,-1,Member
+420,Reporting Official Address Info for RRW Letter,REP_OFF_ADDR_INFO_RRW,-1,Member
+421,Employer Name for RRW Letter,EMP_NAME_RRW,-1,Member
+457,Current Net Benefit,CURRENT_NET_BENEFIT,-1,Member
+561,Outdated_Warrant_4,OUTDATED_WARRENT_4,-1,Member
+562,Outdated_Warrant_5,OUTDATED_WARRENT_5,-1,Member
+563,Outdated_Warrant_6,OUTDATED_WARRENT_6,-1,Member
+564,Outdated_Warrant_GRID_NEW,OUTDATED_WARRENT_GRID_NEW,-1,Member
+565,Ben Summ Notice of Recalc - Ret Re-emp,BEN_SUM_NOTI_RECALC_RR,-1,Member
+566,Member Pension Investment,PENSION_INVESTMENT,-1,Pension
+567,PENSION_OPTION_1,PEN_OPTION_1,-1,Member
+568,Ben Summ Notice of Recalc - Ret Re-emp months,BEN_SUM_MON_NOT_RECALC_RR,-1,Pension
+575,SSD Recalc letter,BEN_SS_SUMMARY_MONTHS_SSD,-1,Pension
+576,CA Percentage1,CA_PERCENTAGE1,-1,Member
+557,Payee_Complete_Address_New,PAYEE_COMPLETE_ADDRESS_NEW,-1,Member
+556,Payee_First_Name_Last_Name_New,PAYEE_FIRST_LAST_NAME_NEW,-1,Member
+624,Beneficiary Death Date,BENEFICIARY_DEATH_DATE,-1,Member
+625,Beneficiary Info,BENEFICIARY_INFO,-1,Pension
+569,Complete_Address_Payee,COMPLETE_ADDRESS_PAYEE,-1,Member
+570,Payee_Full_Name,PAYEE_FULL_NAME,-1,Member
+571,EFT Bank Address,EFT_BANK_ADDRESS,-1,Pension
+572,Beneficiary Demographic Info,BENEFICIARY_DEMOGR_INFO,-1,Member
+573,Overpayment Month Year and Net Amount,OVERPAY_MONTH_YR_NET_AMT,-1,Pension
+574,Total Overpayment Recovery Amount,TOTAL_OVERPAY_RECV_AMT,-1,Pension
+577,Service Block,SERVICE_BLOCK,-1,Member
+589,AE Lump Sum Amount(Total Inv) With some text ,AE_LUMPSUM_AMT_TOT_INV_WITH_SOME_TEXT,116,Member
+590,AE Estimate - MP Option 2 Present age,AE_MP_OPTION2_PRESENT_AGE,116,Member
+591,DIRECT_DEPOSIT_EFT_INFO_NAME_BM,DIRECT_DEPOSIT_EFT_INFO_NAME_BM,-1,Member
+593,Direct Deposit Eft Info Name BM1,DIRECT_DEPOSIT_EFT_INFO_NAME_BM1,85,Member
+594,Monthly Benefits Paid,MONTHLY_BENEFITS_PAID,116,Member
+578,Ben Summary AP Notice of Recalc,BEN_SUM_AP_NOTI_RECALC,-1,Member
+579,FME_PARENT_PEN_ID,FME_PARENT_PEN_ID,-1,Pension
+581,Complete Address pension_app_id,COMPLETE_ADDRESS,-1,Member
+582,Complete Name pension_app_id,COMPLETE_NAME,-1,Member
+583,Pension Benefit Info1,PENSION_BENEFIT_INFO1,116,Member
+584,Ben Summ AMDB Notice of Recalc - Months,BEN_SUM_MON_NOT_RECALC_AMDB,-1,Member
+585,Ben Summ AMDB Notice of Recalc,BEN_SUM_AMDB_NOTI_RECALC,-1,Member
+586,Retired Reemployed Option 2,OPTION_2_RR,-1,Member
+587,Retired Reemployed Option 6,OPTION_6_RR,-1,Member
+542,Preliminary Letter Benefit Info 2,PENSION_BENEFIT_INFO_2,-1,Member
+588,Other Member Info,OTHER_MEMBER_INFO,-1,Member
+595,Remaining Investment,REMAINING_INVESTMENT,116,Member
+596,Person firstName,PERSON_FIRSTNAME,116,Member
+597,Original Ivestment,ORIGINAL_INVESTMENT,116,Member
+605,Current Payroll Date1,CURRENT_PAYROLL_DATE1,-1,Pension
+604,Pension Primary beneficary count,PENSION_PRIMARY_BENE_COUNT,-1,Member
+540,Member Info Upper 1,MEMBER_INFO_UPPER_1,-1,Member
+606,payroll date,PAYROLL_DATE,-1,Member
+607,Years of service,YOS,-1,Member
+608,Refund Overpayment Details,REFUND_OVER_PAYMENT_DTLS,-1,Member
+627,Service Block LC,SERVICE_BLOCK_LC,-1,Member
+628,Service Block LC Display Condition,SERVICE_BLOCK_LC_DISPLAY,-1,Member
+629,Winning Average Salary SS LC,WIN_AVG_SAL_LC,-1,Member
+616,BENE_INFORMATION,BENE_INFORMATION,-1,Member
+630,Winning Average Salary based on Category,WAS_BASED_ON_CATEGORY,-1,Pension
+634,Member Address US and NON US,MEMBER_ADDRESS_US_NON_US,-1,Member
+635,Years of Service till FME,YOS_FME_DATE,-1,Member
+617,Payee_Complete_Address_1,PAYEE_COMPLETE_ADDRESS_1,-1,Member
+618,Money Purchase Eligible Block Recalc,MPNE_BLOCK_RECALC,-1,Member
+636,Member Address concatenated,GENERIC_MEMBER_ADDRESS,-1,Member
+532,AP Address - QDRO,AP_ADDR_QDRO,-1,Pension
+609,EFT Bank Address of member thrg ben pension app id,EFT_BANK_ADDRESS_NEW,-1,Pension
+431,Beneficiary Info Upper,BENEFICIARY_INFO_UPPER,-1,Pension
+610,Amdb pension FME months,AMDB_PENSION_FME_MONTH_NEW,-1,Pension
+611,Bene info new,BENE_INFO_NEW,-1,Pension
+612,Pension Option Type Percent for ret re-employed,PEN_OPT_TYPE_PER_RREMP,-1,Member
+614,Overpayment Total Amount,BENE_RECLA_BOOKMARK,-1,Member
+592,DIRECT_DEPOSIT_EFT_ADDRESS_BM,DIRECT_DEPOSIT_EFT_ADDRESS_BM,-1,Member
+631,Beneficiary Info through Pension application id,BEN_INFO_VIA_PENSION_APP,-1,Member
+632,Member Address Info US,MEM_ADDR_INFO_US,-1,Member
+633,Earning Limit Reach Month Year,EAR_LIMIT_MONTH_YEAR,-1,Member
+615,Pay By Date period,PAY_BY_DATE_PERIOD,-1,Pension
+76,Employer Name,EMPLOYER_NAME,-1,Employer
+619,Outdated_Warrant_Grid_New,OUTDATED_WARRANT_GRID_NEW,-1,Member
+620,Pension Person Name Info,PEN_PERSON_NAME,-1,Member
+621,Pension Person Address,PEN_PERSON_ADDR,-1,Member
+622,DIRECT_DEPOSIT_PAY_ROLE_DATE,DIRECT_DEPOSIT_PAY_ROLE_DATE,-1,Member
+623,Rollover Account Information,ROLLOVER_ACCOUNT_INFORMATION,-1,Member
+626,Beneficiary Address,BENEFICIARY_ADDRESS,-1,Member
+238,Payee_Complete_Address,PAYEE_COMPLETE_ADDRESS,-1,Member
+216,AP Info Address,AP_INFO_ADDRESS,-1,Member
+580,Retired Reemployed Option 1,OPTION_1_RR,-1,Pension
+643,Address using person id,ADDRESSS_USING_PERSON_ID,-1,Member
+644,Person demographics using person id,PERSON_DEMOGRAPHICS_PERSON_ID,-1,Member
+655,Member Info Upper 2,MEMBER_INFO_UPPER_2,-1,Member
+653,Total Recovery Amount,TOTAL_RECOVERY_AMOUNT,-1,Pension
+656,Member Info 1,MEMBER_INFO_1,-1,Member
+657,Generic Member Address 1,GENERIC_MEMBER_ADDRESS_1,-1,Member
+638,Employer name using Member ID,EMPLOYER_NAME_VIA_MEM_ID,-1,Member
+639,Winning Average Salary,WINNING_AVG_SAL,-1,Member
+645,Total Overpayment Amount,TOTAL_OVERPAYMENT_AMOUNT,-1,Pension
+646,Overpayment Monthly Deduction Amt,OVERPAYMENT_MONT_DED_AMT,-1,Pension
+647,CA Death letter,CA_DEATH_LETTER_BOOKMARK,-1,Member
+648,Member Overpayment Count,MEMBER_OVERPAYMENT_CNT,-1,Member
+649,CA Death letter mail block bkmrk,CA_DEATH_LTR_MAIL_BLK,-1,Member
+650,CA Death letter overpymnt bkmrk,CA_DEATH_LTR_OVR_PYMT_AMT,-1,Member
+651,CA Death letter CA net payment amount,CA_DEATH_LTR_CA_NET_PAY_AMT,-1,Member
+652,CA Death letter payment date,CA_DEATH_LTR_PAYMENT_DATE,-1,Member
+658,Member Info2,MEMBER_INFO_2,-1,Member
+659,Beneficiary Info2,BENEFICIARY_INFO_2,-1,Pension
+640,Member Address concatenated with member_id,GENERIC_MEMBER_ADDRESS_MEM_ID,-1,Member
+228,Authorized Agent Complete Address,AUTHORIZED_AGENT_COMPLETE_ADDRESS,-1,Member
+641,New IPERS logo Full Image,IPERS_LOGO,-1,Pension
+637,option 6 using ben_summary_block,OPTION_6_RECALC,-1,Member
+613,EFT Bank Address Pension App,EFT_BANK_ADDRESS_PENSION_APP,-1,Member
+642,Correspondence datasheet bookmarks,CORRESPONDENCE_DATASHEET_BOOKMARKS,-1,Member
+654,AP Pen First Mon Of Payment,AP_PEN_FIRST_MON_OF_PAYMENT,-1,Member

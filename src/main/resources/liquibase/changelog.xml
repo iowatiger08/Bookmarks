@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+<!-- 
+	<changeSet id="SET_ENFORCE_STRICT_SIZE" author="tdillon">
+		<preConditions onFail="MARK_RAN">
+			<dbms type="hsqldb"/>
+		</preConditions>
+
+		<sql>SET PROPERTY "sql.enforce_strict_size" TRUE</sql>
+	</changeSet>
+			-->
+			
+  	<property name="now" value="now()" dbms="mysql"/>
+	<include file="liquibase/deploy_1.x.xml" />
+
+	<!-- These go last -->
+ 	<include file="liquibase/populateDocBookmarkRows.xml"/>
+	<include file="liquibase/populateDocShellRows.xml"/>
+
+</databaseChangeLog>

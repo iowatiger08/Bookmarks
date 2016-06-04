@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration>
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{ISO8601} [%thread] %-5level %logger - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="INFO">
+		<appender-ref ref="stdout"/>
+	</root>
+	
+	<logger name="org.ipers" level="INFO"/>
+
+	<logger name="org.hibernate.SQL" level="DEBUG"/>
+<!--     <logger name="org.imfc.hin.warehouseSubscriber.service.impl.WarehouseUpdateServiceImpl" level="DEBUG" />
+	<logger name="org.hibernate.type" level="TRACE" />
+	-->
+	<!-- <logger name="org.springframework" level="DEBUG" /> -->
+	
+</configuration>

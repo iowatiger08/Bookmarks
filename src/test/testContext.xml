@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<import resource="classpath:spring/applicationContext-dataSource.xml"/>
+	<import resource="classpath:spring/applicationContext-dao.xml"/>
+	<import resource="classpath:spring/applicationContext-service.xml"/>
+	
+	<bean id="poConfigurer" class="org.springframework.beans.factory.config.PropertyOverrideConfigurer">
+		<property name="location" value="classpath:props/testContext.properties"/>
+		<property name="order" value="8"/>
+		<property name="ignoreResourceNotFound" value="true"/>
+		<property name="ignoreInvalidKeys" value="true"/>
+	</bean>
+	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	
+</beans>

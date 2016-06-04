@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+	<changeSet author="tdillon" id="CREATE_DOC_SHELL">
+		<createTable tableName="DOC_SHELL" schemaName="DOCBOOKMARKS">
+			<column autoIncrement="true" name="DOC_SHELL_ID" type="INTEGER">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="PK_DOC_SHELL" />
+			</column>
+			<column name="DOC_SHELL_NAME" type="VARCHAR(150)">
+				<constraints nullable="false" />
+			</column>
+			<column name="DOC_SUBTYPE_ID" type="INTEGER">
+				
+			</column>
+			<column name="INSERTED_BY" type="VARCHAR(10)">
+			</column>
+			<column name="INSERTED_DATE" type="DATETIME">
+			</column>
+			<column name="UPDATED_BY" type="VARCHAR(10)">
+			</column>
+			<column name="UPDATED_DATE" type="DATETIME">
+			</column>
+			<column name="DATAWINDOW_OBJECT_NAME" type="VARCHAR(150)">				
+			</column>
+			<column name="RETENTION_PERIOD" type="INTEGER">				
+			</column>
+			<column name="SHELL_TYPE" type="VARCHAR(5)">
+			</column>
+			<column name="INITIAL_STATUS" type="VARCHAR(1)">			
+			</column>
+			<column name="CURRENT_VERSION" type="VARCHAR(1)">
+			</column>
+			<column name="PUBLISHED" type="VARCHAR(1)">				
+			</column>
+			<column  name="PUBLISHED_DATE" type="DATETIME">				
+			</column>			
+		</createTable>
+	</changeSet>
+
+	<changeSet author="tdillon" id="CREATE_DOCBOOKMARKS">
+		<createTable tableName="DOC_BOOKMARK" schemaName="DOCBOOKMARKS">
+			<column autoIncrement="true" name="MARK_ID" type="INTEGER">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="PK_DOCBOOKMARKS" />
+			</column>
+			<column name="MARK_NAME" type="VARCHAR(150)" />
+			<column name="INTERNAL_NAME" type="VARCHAR(150)">
+			</column>
+			
+			<column name="MARK_SQL" type="VARCHAR(1000)">
+			</column>
+
+			<column name="DOC_SUBTYPE_ID" type="INTEGER">
+			</column>
+			<column name="DOC_TYPE_NAME" type="VARCHAR(100)">
+			</column>
+			
+		</createTable>
+		<!-- 
+		<createIndex indexName="MARK_NAME_UX" tableName="DOC_BOOKMARK"
+			unique="true">
+			<column name="MARK_NAME" />
+		</createIndex>
+		defaultValue="CURRENT_TIMESTAMP"
+		-->
+	</changeSet>
+	
+	<changeSet author="tdillon" id="CREATE_MAPPED_DOCBOOKMARK">
+		<createTable tableName="MAPPED_SHELL_MARK" schemaName="DOCBOOKMARKS">
+			<column name="MARK_ID" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="DOC_SHELL_ID" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column  name="CREATED_DATE" type="DATETIME" >				
+				<constraints nullable="false" />
+			</column>			
+		</createTable>
+		<addPrimaryKey tableName="MAPPED_SHELL_MARK" columnNames="MARK_ID, DOC_SHELL_ID" constraintName="PK_MAPPEDDOCBOOKMARKS"/>
+		<addForeignKeyConstraint baseColumnNames="MARK_ID"
+			baseTableName="MAPPED_SHELL_MARK" constraintName="FK_MAPPED_MARKS"
+			referencedColumnNames="MARK_ID" referencedTableName="DOC_BOOKMARK"
+			initiallyDeferred="false" onDelete="NO ACTION"
+				onUpdate="NO ACTION" />
+		<addForeignKeyConstraint baseColumnNames="DOC_SHELL_ID"
+			baseTableName="MAPPED_SHELL_MARK" constraintName="FK_MAPPED_DOC_SHELL"
+			referencedColumnNames="DOC_SHELL_ID" referencedTableName="DOC_SHELL"
+			initiallyDeferred="false" onDelete="NO ACTION"
+				onUpdate="NO ACTION" />
+	</changeSet>
+	
+	<changeSet author="tdillon" id="CREATE_SECURITY_USERS">
+		<createTable tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			 
+			<column name="SECURITY_USER_ID" type="INTEGER">
+			</column>
+			
+			<column name="USER_NAME" type="varchar(10)">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="PK_SECURITY_USER" />
+			</column>
+			
+		</createTable>
+
+	</changeSet>
+	<changeSet id="INSERT_BASE_SEC_USER2" author="tdillon">
+		<insert tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME">tdillon</column>
+			<column name="SECURITY_USER_ID">1</column> 
+		</insert>
+	</changeSet>
+
+	<changeSet id="ADD_DISPLAYNAME150_COL" author="tdillon">
+		<addColumn tableName="DOC_SHELL" schemaName="DOCBOOKMARKS">
+			<column name="DOC_SHELL_DISPLAY_NAME" defaultValue="na"
+				type="varchar(150)">
+			</column>
+		</addColumn>
+	</changeSet>
+	
+	<changeSet id="ADD_HASDOCUMENTS_COL" author="tdillon">
+		<addColumn tableName="DOC_SHELL" schemaName="DOCBOOKMARKS">
+			<column name="HAS_DOCUMENTS" defaultValue="0"
+				type="INTEGER">
+			</column>
+		</addColumn>
+	</changeSet>
+<!-- 	
+	<changeSet id="UNIQUE_SECURITY_USERS" author="tdillon">
+		<addUniqueConstraint 
+		columnNames="USER_NAME" 
+		tableName="SECURITY_USER" 
+		schemaName="DOCBOOKMARKS"/>
+	</changeSet>
+ -->		
+	<changeSet id="addDocShellTestRows" author="tdillon">
+		<insert tableName="DOC_SHELL" schemaName="DOCBOOKMARKS">
+			<column name="DOC_SHELL_ID" value="1" />
+			<column name="DOC_SHELL_NAME" value="TEST" />
+			<column name="DOC_SUBTYPE_ID" value="0" />
+			<column name="RETENTION_PERIOD" value="0" />
+			<column name="SHELL_TYPE" value="R" />
+			<column name="INITIAL_STATUS" value="Q" />
+			<column name="CURRENT_VERSION" value="Y" />
+			<column name="DOC_SHELL_DISPLAY_NAME" value="0" />
+			<column name="HAS_DOCUMENTS" value="0" />			
+		</insert>
+	</changeSet>	
+	
+	<changeSet id="addDocBookmarkTestRows" author="tdillon">
+		<insert tableName="DOC_BOOKMARK" schemaName="DOCBOOKMARKS">
+			<column name="MARK_ID" value="1" />
+			<column name="MARK_NAME" value="TEST" />
+			<column name="INTERNAL_NAME" value="TEST" />
+			<column name="DOC_SUBTYPE_ID" value="-1" />
+			<column name="DOC_TYPE_NAME" value="Test" />			
+		</insert>
+	</changeSet>
+
+	<changeSet id="addCredentialsColumn" author="tdillon">
+		<addColumn tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="CREDENTIALS" type="varchar(20)" defaultValue="Password1"></column>
+		</addColumn>
+	</changeSet>
+
+	<changeSet id="addUserToMappedBookmark" author="tdillon">
+		<addColumn tableName="MAPPED_SHELL_MARK" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME" type="varchar(20)">
+				<constraints nullable="false" />
+			</column>
+		</addColumn>
+
+	</changeSet>	
+				
+	<changeSet id="addMappedBookmarkTestRows2" author="tdillon">
+		<insert tableName="MAPPED_SHELL_MARK" schemaName="DOCBOOKMARKS">
+			<column name="DOC_SHELL_ID" value="1" />
+			<column name="MARK_ID" value="1" />
+			<column name="CREATED_DATE" valueDate="${now}" />	
+			<column name="USER_NAME" value="tdillon" />		
+		</insert>
+	</changeSet>
+	
+	<changeSet id="addFKUserIdToSecureId" author="tdillon">
+			<addForeignKeyConstraint baseColumnNames="USER_NAME"
+			baseTableName="MAPPED_SHELL_MARK" constraintName="FK_USER_MAPPEDMARK"
+			referencedTableName="SECURITY_USER" referencedColumnNames="USER_NAME"
+			initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" />
+	</changeSet>
+	
+	<changeSet author="tdillon" id="addDocShellIsDone">
+		<addColumn tableName="DOC_SHELL" schemaName="DOCBOOKMARKS">
+
+			<column name="IS_DONE" type="INTEGER" defaultValue="0" />
+			<column name="USER_NAME" type="varchar(20)" defaultValue="tdillon"/>
+			<column  name="DONE_DATE" type="DATETIME" >				
+				
+			</column>
+						
+		</addColumn>						
+	</changeSet>
+	
+	<changeSet id="addUserIdToDOCSHELL" author="tdillon">
+	    <sql>UPDATE DOCBOOKMARKS.DOC_SHELL DS
+	        SET DS.USER_NAME='tdillon'
+	        WHERE DS.DOC_SHELL_ID IS NOT NULL	        
+	        </sql>
+	    
+	</changeSet>
+	
+	<changeSet id="addforeignKeyToDocShellforUserId" author="tdillon">
+		<addForeignKeyConstraint baseColumnNames="USER_NAME"
+			baseTableName="DOC_SHELL" constraintName="FK_DOC_SHELL_ISDONE"
+			referencedTableName="SECURITY_USER" referencedColumnNames="USER_NAME"
+			initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" />
+	</changeSet>
+	
+	<changeSet id="addUserRole_table" author="tdillon">
+		<createTable tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column autoIncrement="true" name="USER_ROLE_ID" type="INTEGER">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="PK_USER_ROLE" />
+			</column>
+			<column name="USER_NAME" type="varchar(10)">
+				<constraints nullable="false" />
+			</column>
+			<column name="ROLE" type="varchar(45)">
+				<constraints nullable="false" />
+			</column>
+		</createTable>	
+	</changeSet>
+
+	<changeSet id="addUserRoleRows1" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="1" />
+			<column name="USER_NAME" value="tdillon" />
+			<column name="ROLE" value="ROLE_USER" />		
+		</insert>
+	</changeSet>
+<!-- 
+	<changeSet id="addUserRoleRows2" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="2" />
+			<column name="USER_NAME" value="tdillon" />
+			<column name="ROLE" value="ROLE_ADMIN" />		
+		</insert>
+	</changeSet>
+		 -->
+
+	<changeSet id="addNonLockedAcctColumn" author="tdillon">
+		<addColumn tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="ACCOUNTNONLOCKED" type="INTEGER"
+				defaultValueNumeric="1">
+				<constraints nullable="false" />
+			</column>
+			<column name="ACCOUNTNONEXPIRED" type="INTEGER"
+				defaultValueNumeric="1">
+				<constraints nullable="false" />
+			</column>
+			<column name="CREDENTIALSNONEXPIRED" type="INTEGER"
+				defaultValueNumeric="1">
+				<constraints nullable="false" />
+			</column>
+		</addColumn>
+	</changeSet>
+
+	<changeSet id="addUserAttemptsTable" author="tdillon">
+		<createTable tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column autoIncrement="true" name="USER_ATTEMPTS_ID" type="INTEGER">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="PK_USER_ATTEMPTS" />
+			</column>
+			<column name="USER_NAME" type="varchar(10)">
+				<constraints nullable="false" />
+			</column>
+			<column name="ATTEMPTS" type="INTEGER" defaultValueNumeric="0">
+				<constraints nullable="false" />
+			</column>
+			<column name="LASTMODIFIED" type="DATETIME">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+	<changeSet id="addUserAttemptsRows1" author="tdillon">
+		<insert tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column name="USER_ATTEMPTS_ID" value="1" />
+			<column name="USER_NAME" value="tdillon" />
+			<column name="LASTMODIFIED" valueDate="${now}" />	
+			<column name="ATTEMPTS" value="0" />		
+		</insert>
+	</changeSet>	
+	<changeSet id="INSERT_BASE_SEC_USER_CSTONER" author="tdillon">
+		<insert tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME">cstoner</column>
+			<column name="SECURITY_USER_ID">2</column>
+			<column name="ACCOUNTNONLOCKED">1</column>
+			<column name="ACCOUNTNONEXPIRED">1</column>
+			<column name="CREDENTIALSNONEXPIRED">1</column>
+		</insert>
+	</changeSet>
+	<changeSet id="addUserAttemptsRowsCSTONER" author="tdillon">
+		<insert tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column name="USER_ATTEMPTS_ID" value="2" />
+			<column name="USER_NAME" value="cstoner" />
+			<column name="LASTMODIFIED" valueDate="${now}" />	
+			<column name="ATTEMPTS" value="0" />		
+		</insert>
+	</changeSet>
+	<changeSet id="addUserRoleRowsCSTONER" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="3" />
+			<column name="USER_NAME" value="cstoner" />
+			<column name="ROLE" value="ROLE_USER" />		
+		</insert>
+	</changeSet>
+	
+	<changeSet id="INSERT_BASE_SEC_USER_lrogers" author="tdillon">
+		<insert tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME">lrogers</column>
+			<column name="SECURITY_USER_ID">10</column>
+			<column name="ACCOUNTNONLOCKED">1</column>
+			<column name="ACCOUNTNONEXPIRED">1</column>
+			<column name="CREDENTIALSNONEXPIRED">1</column>
+		</insert>
+	</changeSet>
+	<changeSet id="addUserAttemptsRowslrogers" author="tdillon">
+		<insert tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column name="USER_ATTEMPTS_ID" value="10" />
+			<column name="USER_NAME" value="lrogers" />
+			<column name="LASTMODIFIED" valueDate="${now}" />	
+			<column name="ATTEMPTS" value="0" />		
+		</insert>
+	</changeSet>
+	<changeSet id="addUserRoleRowslrogers" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="10" />
+			<column name="USER_NAME" value="lrogers" />
+			<column name="ROLE" value="ROLE_USER" />	
+		</insert>
+	</changeSet>
+	
+	<changeSet id="INSERT_BASE_SEC_USER_fqian" author="tdillon">
+		<insert tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME">fqian</column>
+			<column name="SECURITY_USER_ID">20</column>
+			<column name="ACCOUNTNONLOCKED">1</column>
+			<column name="ACCOUNTNONEXPIRED">1</column>
+			<column name="CREDENTIALSNONEXPIRED">1</column>
+		</insert>
+	</changeSet>
+	<changeSet id="addUserAttemptsRowsfqian" author="tdillon">
+		<insert tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column name="USER_ATTEMPTS_ID" value="20" />
+			<column name="USER_NAME" value="fqian" />
+			<column name="LASTMODIFIED" valueDate="${now}" />	
+			<column name="ATTEMPTS" value="0" />		
+		</insert>
+	</changeSet>
+	<changeSet id="addUserRoleRowsfqian" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="20" />
+			<column name="USER_NAME" value="fqian" />
+			<column name="ROLE" value="ROLE_USER" />		
+		</insert>
+	</changeSet>
+	
+	<changeSet id="INSERT_BASE_SEC_USER_csevedg" author="tdillon">
+		<insert tableName="SECURITY_USER" schemaName="DOCBOOKMARKS">
+			<column name="USER_NAME">csevedg</column>
+			<column name="SECURITY_USER_ID">40</column>
+			<column name="ACCOUNTNONLOCKED">1</column>
+			<column name="ACCOUNTNONEXPIRED">1</column>
+			<column name="CREDENTIALSNONEXPIRED">1</column>
+		</insert>
+	</changeSet>
+	<changeSet id="addUserAttemptsRowscsevedg" author="tdillon">
+		<insert tableName="USER_ATTEMPTS" schemaName="DOCBOOKMARKS">
+			<column name="USER_ATTEMPTS_ID" value="40" />
+			<column name="USER_NAME" value="csevedg" />
+			<column name="LASTMODIFIED" valueDate="${now}" />	
+			<column name="ATTEMPTS" value="0" />		
+		</insert>
+	</changeSet>
+	<changeSet id="addUserRoleRowscsevedg" author="tdillon">
+		<insert tableName="USER_ROLE" schemaName="DOCBOOKMARKS">
+			<column name="USER_ROLE_ID" value="40" />
+			<column name="USER_NAME" value="csevedg" />
+			<column name="ROLE" value="ROLE_USER" />		
+		</insert>
+	</changeSet>
+ 	
+	<changeSet id="addforeignKeyToUserRoleforUserName" author="tdillon">
+		<addForeignKeyConstraint baseColumnNames="USER_NAME"
+			baseTableName="USER_ROLE" constraintName="FK_USER_ROLE_NAME"
+			referencedTableName="SECURITY_USER" referencedColumnNames="USER_NAME"
+			initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" />
+	</changeSet>
+<!-- -->								
+</databaseChangeLog>

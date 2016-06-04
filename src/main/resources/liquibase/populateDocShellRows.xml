@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+	<changeSet id="DOC_SHELL_ROWS" author="tdillon"
+		runOnChange="true">
+		<loadUpdateData schemaName="DOCBOOKMARKS" tableName="DOC_SHELL"
+			file="liquibase/data/docShell.csv"
+			primaryKey="DOC_SHELL_ID">
+			<column name="DOC_SHELL_ID" type="NUMERIC" />
+			<column name="DOC_SHELL_NAME" type="STRING" />
+			<column name="DOC_SUBTYPE_ID" type="NUMERIC" />
+			<column name="DATAWINDOW_OBJECT_NAME" type="STRING" />
+			<column name="DOC_SHELL_DISPLAY_NAME" type="STRING" />
+			<column name="SHELL_TYPE" type="STRING" />
+			<column name="INITIAL_STATUS" type="STRING" />
+			<column name="CURRENT_VERSION" type="STRING" />
+			<column name="PUBLISHED" type="STRING" />
+			<column name="HAS_DOCUMENTS" type="NUMERIC" />
+		</loadUpdateData>
+	</changeSet>
+
+</databaseChangeLog>
+    

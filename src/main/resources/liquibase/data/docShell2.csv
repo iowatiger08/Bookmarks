@@ -1,0 +1,217 @@
+DOC_SHELL_ID,DOC_SHELL_NAME,DOC_SUBTYPE_ID,INSERTED_BY,UPDATED_BY,DATAWINDOW_OBJECT_NAME,DOC_SHELL_DISPLAY_NAME,SHELL_TYPE,INITIAL_STATUS,CURRENT_VERSION,PUBLISHED
+399,Employer Annual Statement,96,DBO,DBO,Master_Emp_Annual_Stmt_New.jrxml,Employer Annual Statement,J,P,Y,Y
+372,Incomplete Address or Name Change Letter,81,DBO,DBO,,Incomplete Address or Name Change Letter,R,Q,Y,Y
+348,Confirmation of Employer Account Merge,89,DBO,DBO,,Confirmation of Employer Account Merge,R,Q,Y,Y
+357,Emp Contact Address Shell,94,DBO,DBO,,Emp Contact Address Shell,R,Q,Y,Y
+383,Notification of Employer Account Closed,87,DBO,DBO,,Notification of Employer Account Closed,R,Q,Y,Y
+382,Notice of Contributions Due,86,DBO,DBO,Master_Notice_of_Ipers_Contributions_Due.jrxml,Notice of Contributions Due,J,Q,Y,Y
+361,Employer Compliance Review Confirmation Letters,92,DBO,DBO,,Employer Compliance Review Confirmation Letters,R,Q,Y,Y
+369,Granted Request for Extension,91,DBO,DBO,,Granted Request for Extension,R,Q,Y,Y
+368,Generate In-House Member ID Card,83,DBO,DBO,inhouse_member_id_card.jrxml,Member ID Card,J,Q,N,N
+349,Confirmation of IPERS coverage termination,88,DBO,DBO,,Confirmation of IPERS coverage termination,R,Q,Y,Y
+356,EFT Authorization,91,DBO,DBO,,EFT Authorization,R,Q,Y,Y
+358,Emp Reporting Official Address Shell,94,DBO,DBO,,Emp Reporting Official Address Shell,R,Q,Y,Y
+375,Incomplete Wage Report Due Date Change Form,91,DBO,DBO,,Incomplete Wage Report Due Date Change Form,R,Q,Y,Y
+370,Incomp Election for Term of IPERS Coverage,88,DBO,DBO,,Incomp Election for Term of IPERS Coverage,R,Q,Y,Y
+404,LETTERHEAD,96,efriedm,DBO,,letterhead,R,Q,Y,Y
+350,Deceased Member Request for Information Letter,84,DBO,DBO,,Deceased Member Request for Information Letter,R,Q,Y,Y
+396,Incomplete Enrollment/Beneficiary Form,80,DBO,DBO,,Incomplete Enrollment/Beneficiary Form,R,Q,Y,Y
+377,IPERS Wage Report Rejection Explanation,91,DBO,DBO,,IPERS Wage Report Rejection Explanation,R,Q,Y,Y
+389,Wage Report Due Date Change,91,DBO,DBO,,Wage Report Due Date Change,R,Q,Y,Y
+388,Terminating Employees Under 6 Months,93,DBO,DBO,TERMINATING_EMPLOYEES_UNDER_6_MONTHS.jrxml,Terminating Employees Under 6 Months,J,Q,Y,Y
+384,Notification of IPERS Compliance Review,92,DBO,DBO,,Notification of IPERS Compliance Review,R,Q,Y,Y
+391,Employer Monthly Statement,96,DBO,DBO,Employer_Monthly_Statement_wf59556.jrxml,Employer Monthly Statement,J,P,Y,Y
+392,Wage Adjustment Detail Report,96,DBO,DBO,Wage_Adjustment_Detail_Report.jrxml,Wage Adjustment Detail Report,J,P,Y,Y
+393,Employer Wage Reporting Summary,96,DBO,DBO,Empl_Wage_Detail_Rpt.jrxml,Employer Wage Reporting Summary,J,P,Y,Y
+394,Periodic Wage Detail,96,DBO,DBO,periodic_wage_detail_rpt.jrxml,Periodic Wage Detail,J,P,Y,Y
+395,Remittance Coupon,96,DBO,DBO,Employer_remittance_coupon.jrxml,Remittance Coupon,J,P,Y,Y
+379,Member Confirmation of IPERS Coverage Termination,86,DBO,DBO,,Member Confirmation of IPERS Coverage Termination,R,Q,Y,Y
+390,Welcome Packet for New Member Letter,82,DBO,DBO,,Welcome Packet for New Member Letter,R,Q,Y,Y
+381,Newly Vested Members Letter,82,DBO,DBO,,Newly Vested Members Letter,R,Q,Y,Y
+380,Member Ineligible to term IPERS coverage,86,DBO,DBO,,Member Ineligible to term IPERS coverage,R,Q,Y,Y
+405,APPROVAL OF IPERS EMPL ENROLLMENT APP,95,schance,DBO,,Approval of IPERS Employer Enrollment Application,R,Q,Y,Y
+401,ELECTRONIC_WR_WAIVER_GRANTED,91,sstilwe,DBO,,Granted Electronic WR Waiver,R,Q,Y,Y
+410,COMPLIANCE_REVIEW_RESULTS_LETTER,92,schance,DBO,,Compliance Review Results Letter,R,Q,Y,Y
+407,MANUAL_WAGE_OR_ERROR_CONFIRMATION,91,schance,DBO,,Manual Wage or Error Confirmation ,R,Q,Y,Y
+403,Address Sheet,96,DBO,DBO,address_sheet.jrxml,Address Sheet,J,P,Y,Y
+406,DENIED EMPLOYER ENROLLMENT APPLICATION,95,schance,DBO,,Denied Employer Enrollment Application,R,Q,Y,Y
+714,EMPLOYER_SELF_SERVICE_USER_ID,95,FQIAN,DBO,,Employer Self Service User ID,R,Q,N,N
+609,Alternate Payee QDRO Letter of Award,116,DBO,TDILLON,,Alternate Payee QDRO Letter of Award,R,Q,N,N
+693,BUY_BACK_CREDIT_DENIAL_LETTER,127,FQIAN,DBO,,Buy Back Credit Denial Letter,R,Q,N,N
+695,BUY_BACK_CREDIT_EMPLOYER_VERIFICATION,132,CSTONER,DBO,,Buy Back Credit Employer Verification,R,Q,N,N
+585,AE Estimate Letter,116,DBO,DBO,,AE Estimate Letter,R,Q,Y,Y
+586,CONTINGENT_ANNUITANT_DEATH_LETTER,150,DBO,DBO,,Contingent Annuitant Death Letter,R,Q,N,N
+547,Notice of Recalculation for Reemployment,152,DBO,DBO,,Notice of Recalculation for Reemployment,R,Q,N,N
+548,Re-employment Benefit Decision Application,116,DBO,DBO,RREMP_Application.jrxml,Re-employment Benefit Decision Application,J,Q,Y,Y
+549,RETIREMENT_NOTIFICATION_LETTER,116,DBO,DBO,Retirement_Notification_Letter.jrxml,Retirement Notification Letter,J,Q,Y,Y
+550,ADDRESS_CHANGE_CONFIRMATION_EXTERNAL_SOURCE,85,DBO,DBO,Address Change Confirmation (External Source).rtf,Address Change Confirmation (External Source),R,Q,Y,Y
+551,DIRECT_DEPOSIT,85,DBO,DBO,,Direct Deposit,R,Q,Y,Y
+584,AE Application Letter,116,DBO,DBO,,AE Application Letter,R,Q,N,N
+554,Release of Information Form,85,DBO,DBO,Release of Information Form.rtf,Release of Information Form,R,Q,Y,Y
+555,DEATH_BENEFIT_APPLICATION,84,DBO,DBO,DeathBenefit.jrxml,Application for IPERS Death Benefit,J,Q,Y,Y
+556,AP Application,120,DBO,DBO,Alternate_Payee_Application_Master.jrxml,AP Application,J,Q,Y,Y
+557,SAP Application,120,DBO,DBO,sap_application_refund.jrxml,SAP Application - Refund,J,Q,N,N
+587,AMDB Notice of Recalculation,150,DBO,DBO,,AMDB Notice of Recalculation,R,Q,N,N
+560,Letter of Award,116,DBO,DBO,,Letter of Award,R,Q,Y,Y
+561,MAD_PRE_NOTIFICATION_LETTER,156,DBO,DBO,Retirement_Benefit_Estimate.jrxml,MAD Pre-Notification Letter,J,Q,Y,Y
+562,Member Lump Sum Form For Mss,154,DBO,DBO,master_member_lumpsum_form_mss.jrxml,Member Lump Sum Form For Mss,J,Q,Y,Y
+563,OVERPAYMENT_INVOICE,157,DBO,DBO,Overpayment_Invoice.jrxml,Overpayment Invoice,J,Q,Y,Y
+589,CONFIRMATION_OF_TAX_WITHHOLDING_CHANGE,85,DBO,TDILLON,,CONFIRMATION_OF_TAX_WITHHOLDING_CHANGE,R,Q,Y,Y
+717,CHILD_SUPPORT_TERMINATION_NOTICE,164,CSTONER,CSTONER,,Child Support Termination Notice,R,Q,N,N
+615,WAIVERDEATHBENEFITSRELEASE,84,DBO,DBO,,WaiverDeathBenefitsRelease,R,Q,N,N
+616,DIRECT_DEPOSIT_CHANGE_CONFIRMATION_LETTER,85,DBO,DBO,,Direct Deposit Change Confirmation Letter,R,Q,N,N
+617,RETURNED_REP_PAYEE_DOC_EXPL_LETTER_TO_MEMBER,85,DBO,DBO,,Returned Rep Payee Doc Expl letter to Member,R,Q,N,N
+618,BENEFIT_ESTIMATE_REQUEST_LETTER__AGE_70_12,118,DBO,DBO,,Benefit Estimate Request Letter (Age 70 12,R,Q,N,N
+580,MSS_CHANGE_EMAIL_ADDRESS_DOC_SHELL,160,DBO,DBO,,Change Email Address,R,Q,Y,Y
+581,MSS_REQUEST_USERNAME_DOC_SHELL,160,DBO,DBO,,Request Username,R,Q,Y,Y
+582,MSS_REGISTRATION_SUCCESS_DOC_SHELL,160,DBO,DBO,,Registration Success,R,Q,Y,Y
+583,MSS_RESET_PASSWORD_OR_SECURITY_QUESTION_DOC_SHELL,160,DBO,DBO,,Reset Password or Security Question,R,Q,Y,Y
+619,REPRESENTATIVE_PAYEE_CONFIRMATION_LETTER_TO_MEMBER,85,DBO,DBO,,REPRESENTATIVE_PAYEE_CONFIRMATION_LETTER_TO_MEMBER,R,Q,N,N
+620,REPRESENTATIVE_PAYEE_CONFIRMATION_LETTER_TO_REP,85,DBO,DBO,,REPRESENTATIVE_PAYEE_CONFIRMATION_LETTER_TO_REP,R,Q,N,N
+621,INCOMPLETE_DISABILITY_APPLICATION_LTR,121,DBO,DBO,,Incomplete Disability Application ltr,R,Q,N,N
+622,ATTORNEY_IN_FACT_POWERS_EXP_RECINDED_TO_AUTH_AGENT,85,DBO,DBO,,attorney in fact powers exp recinded to auth agent,R,Q,N,N
+344,Approved Request for Waiver of Fee or Interest,91,DBO,DBO,,Approved Request for Waiver of Fee or Interest,R,Q,Y,Y
+354,Denied Request for Waiver of Fee or Interest,91,DBO,DBO,,Denied Request for Waiver of Fee or Interest,R,Q,Y,Y
+623,ATTORNEY_IN_FACT_CONFIRMATION_LTR_TO_AUTH_AGENT,85,DBO,DBO,,Attorney in Fact Confirmation ltr to Auth Agent,R,Q,N,N
+624,REQUEST_FOR_MEDICAL_UPDATE,121,DBO,DBO,,REQUEST_FOR_MEDICAL_UPDATE,R,Q,N,N
+687,BENEFIT_ESTIMATE_REQUEST_LETTER__AGE_70_12_NEW,118,DBO,DBO,benefit_estimate_request_letter_master.jrxml,Benefit Estimate Request Letter (Age 70 12 Duplex),J,Q,N,N
+642,SERVICE_PURCHASE_RECEIPT_OF_PAYMENT_LTR,127,CSTONER,DBO,,SERVICE_PURCHASE_RECEIPT_OF_PAYMENT_LTR,R,Q,N,N
+419,EMPLOYER_PDF_FORM,100,DBO,DBO,,Employer Pdf Form,PF,Q,Y,Y
+530,Benefit Estimate Letter,116,DBO,DBO,Benefit_Estimate_Letter.jrxml,Benefit Estimate Letter,J,Q,Y,Y
+534,New Reporting Officials-Emp Training Notif Ltr,153,DBO,DBO,,New Reporting Officials-Emp Training Notif Ltr,R,Q,Y,Y
+532,CHANGE_OF_LOCATION_NOTIFICATION_LETTER,153,DBO,DBO,,Change of Location Notification Letter fo Employer,R,Q,Y,Y
+444,Retirement Application,116,DBO,DBO,Retirement_Application.jrxml,Retirement Application,J,Q,Y,Y
+545,Recalculation Letter,116,DBO,DBO,,Recalculation Letter,R,Q,Y,Y
+432,Individual RPA Form,85,DBO,DBO,Individual RPA Form.rtf,Individual RPA Form,R,Q,Y,Y
+434,MEMBER_APPOINTMENT_CONFIRMATION_LETTER,143,DBO,DBO,,Individual Member Appointment Confirmation Letter,R,Q,Y,Y
+535,Tax Withholding Form,85,DBO,DBO,Tax_Withholding_Form.jrxml,Tax Withholding Form,J,Q,Y,Y
+536,Employer Annual Update-Emp Training Notif Ltr,153,DBO,DBO,,Employer Annual Update-Emp Training Notif Ltr,R,Q,Y,Y
+446,Member Conference Notification Letter,143,DBO,DBO,,Member Conference Notification Letter,R,Q,Y,Y
+448,Request for Benefits Change Form,116,DBO,DBO,Request_for_Benefit_Change_Form.jrxml,Request for Benefits Change Form,J,Q,Y,Y
+538,RETIREMENT_DEATH_BENEFITS_APP,84,DBO,DBO,RDB_Application.jrxml,Retirement Death Benefits Application,J,Q,Y,Y
+452,Legal_test,124,DBO,DBO,,Legal test,R,Q,Y,Y
+459,ALTERNATE_PAYEE_REMINDER_NOTICE_LETTER,120,DBO,DBO,,Alternate Payee Reminder Notice Letter,R,Q,Y,Y
+542,DEATH_BENEFIT_APP_REJECTION_LETTER,84,DBO,DBO,,Death Benefit Application Rejection Letter,R,Q,N,N
+541,Income Verification Letter,85,DBO,DBO,Income_Verification_Letter.jrxml,Income Verification Letter,J,Q,Y,Y
+543,DEATH_BENEFITS_PAYMENT_LETTER,84,DBO,DBO,,Death Benefits Payment Letter,R,Q,Y,Y
+470,Institutional RPA Form,85,DBO,DBO,Institutional_RPA_Form.jrxml,Institutional RPA Form,J,Q,Y,Y
+544,PPO3 Decision Letter,116,DBO,DBO,PP03_Main_Form.jrxml,PPO3 Lump Sum Application,J,P,Y,Y
+546,Request for Outstanding Warrant Action Form,122,DBO,DBO,Request for Outstanding Warrant Action Form.rtf,Request for Outstanding Warrant Action Form,R,Q,Y,Y
+569,Benefits Overpayment Letter,157,DBO,DBO,,Benefits Overpayment Letter,R,Q,Y,Y
+565,BONA_FIDE_RETIREMENT_VOILATION_OVERPAYMENT_LETTER,157,DBO,DBO,Bonafide_Retirement_Violation_Overpay_Letter.jrxml,Bona fide Retirement Violation-Overpayment Letter,J,Q,Y,Y
+570,Member Lump Sum Form,154,DBO,DBO,master_member_lumpsum_form.jrxml,Member Lump Sum Form,J,Q,Y,Y
+567,Overpayment Amortization Schedule Report,157,DBO,DBO,overpayment_amortization_schedule_rpt.jrxml,Overpayment Amortization Schedule Report,J,Q,Y,Y
+568,REFUND_VIOLATION_OVERPAYMENT_LETTER,157,DBO,DBO,,Refund Violation - Overpayment Letter,R,Q,N,N
+485,MBR SS LOB View Benefits Estimate Requests Form,139,DBO,DBO,,MBR SS LOB View Benefits Estimate Requests Form,R,Q,Y,Y
+572,Re-employment Termination Acknowledgement Ltr,152,DBO,DBO,,Re-employment Termination Acknowledgement Ltr,R,Q,Y,Y
+573,Member Lump Sum Form for IVR,154,DBO,DBO,master_member_lumpsum_form.jrxml,Member Lump Sum Form for IVR,J,Q,N,N
+574,Member Benefit Statement Form,158,DBO,DBO,Member_Annual_Statement.jrxml,Member Benefit Statement Form,J,Q,Y,Y
+576,Age 70.5 MRD Notification Letter,159,DBO,DBO,Age_70_5_MRD_Notification_Letter.jrxml,Age 70.5 MRD Notification Letter,J,Q,Y,Y
+607,OUTDATED_WARRANT_LETTER,122,DBO,DBO,,OUTDATED_WARRANT_LETTER,R,Q,N,N
+504,AFDVT_AND_AGRMNT_FOR_ISSUANCE_OF_DUPLICATE_WARRANT,85,DBO,DBO,,Afdvt and Agrmnt for Issuance of Duplicate Warrant,R,Q,Y,Y
+517,Special Service Switch to Regular Disability Form,121,DBO,DBO,Special Service Switch to Regular Disab Form.rtf,Special Service Switch to Regular Disability Form,R,Q,Y,Y
+526,Special Service Disability Recalculation Letter,121,DBO,DBO,,Special Service Disability Recalculation Letter,R,Q,N,N
+521,BENEFITS_ESTIMATE_REQUEST_FORM,85,DBO,DBO,Benefits_Estimate_Request_Form.jrxml,Benefits Estimate Request Form,J,Q,Y,Y
+492,DISABILITY_REDUCTION_LETTER,104,DBO,DBO,Disability Reduction Letter.rtf,Disability Reduction Letter,R,Q,Y,Y
+528,WAGE_CERTIFICATION_FORM,94,DBO,DBO,Wage_Certification.jrxml,Wage Certification Form,J,Q,Y,Y
+495,SP_COST_QUOTE_LETTER_FOR_ACTIVE_MEMBER,127,DBO,DBO,SCP_Letter_Active_Member.jrxml,Service Purchase Cost Quote Ltr for Active Member,J,Q,Y,Y
+496,SP_COST_QUOTE_LETTER_FOR_RETIRED_MEMBER,127,DBO,DBO,SCP_Letter_Retired_Member.jrxml,Service Purchase Cost Quote Ltr for Retired Member,J,Q,Y,Y
+500,W2_FORM,147,DBO,DBO,W2_Form.jrxml,W2 Form,J,Q,Y,Y
+501,1099_DOCUMENT,147,DBO,DBO,Form1099Report.jrxml,1099 Document,J,Q,Y,Y
+503,ANNUAL_DISABILITY_VERIFICATION_LETTER,104,DBO,DBO,Annual Disability Verification Letter.rtf,Annual Disability Verification Letter,R,Q,Y,Y
+507,EMPLOYER_TRAINING_APPOINTMENT_CONFIRMATION_LETTER,132,DBO,DBO,,Employer Appointment Confirmation Letter,R,Q,Y,Y
+510,Outdated Warrant Information,122,DBO,DBO,,Outdated Warrant Information,R,Q,Y,Y
+523,Free Service Credit Confirmation Letter,127,DBO,DBO,Free_Service_Credit_ConfLtr.jrxml,Free Service Credit Confirmation Letter,J,Q,N,N
+516,Special Service Disability Letter of Award,121,DBO,DBO,,Special Service Disability Letter of Award,R,Q,Y,Y
+518,SSD Preliminary Letter of Award,121,DBO,DBO,,Special Service Disability Prel Letter of Award,R,Q,Y,Y
+520,EARNING_LIMIT_NOTIFICATION,152,DBO,DBO,Earnings Limit Notification Letter.rtf,Earnings Limit Notification Letter,R,Q,Y,Y
+522,Termination Verification Form,85,DBO,DBO,Termination_Verification_Form.jrxml,Termination Verification Form,J,Q,Y,Y
+525,DOB-Name Change Acknowledgement Letter,110,DBO,DBO,,DOB-Name Change Acknowledgement Letter,R,Q,N,N
+529,Change of Location Notification Letter for Member,143,DBO,DBO,,Change of Location Notification Letter for Member,R,Q,Y,Y
+345,Beneficiary Acknowledgment Letter,80,DBO,DBO,,Beneficiary Acknowledgment Letter,R,Q,Y,Y
+692,RETURNED_BENEFIT_CHECK_ACH,85,FQIAN,DBO,,Returned Benefit Check ACH,R,Q,N,N
+601,PRELIMINARY_LETTER_OF_AWARD,116,DBO,DBO,,Preliminary Letter of Award,R,Q,Y,Y
+603,Historical Spike Control Work History View,161,DBO,DBO,spike_control_view_1.jrxml,Historical Spike Control Work History View,J,Q,N,N
+602,Option 6 Pop Up Notification,116,DBO,DBO,,Option 6 Pop Up Notification,R,Q,N,N
+605,Notice of Final Benefit Payment,150,DBO,DBO,,Notice of Final Benefit Payment,R,Q,N,N
+397,Missing Enrollment Beneficiary Form,80,DBO,DBO,,Missing Enrollment Beneficiary Form,R,Q,Y,Y
+604,EMAIL_COVER_LETTER,85,DBO,DBO,,EMail Cover Letter,R,Q,N,N
+612,SAP_APPLICATION_RETIREMENT,120,DBO,DBO,sap_application_retirement.jrxml,SAP Application - Retirement,J,Q,N,N
+613,SAP_APPLICATION_AMDB,120,DBO,DBO,sap_application_amdb.jrxml,SAP Application - AMDB Lumpsum,J,Q,N,N
+593,Overpayment Statement,157,DBO,DBO,Overpayment_Statement.jrxml,Overpayment Statement,J,Q,Y,Y
+650,APPEAL_ACKNOWLEDGEMENT_LETTER,126,FQIAN,DBO,,APPEAL_ACKNOWLEDGEMENT_LETTER,R,Q,N,N
+672,MEMBER_APPOINTMENT_REMINDER,143,FQIAN,DBO,,Member Appointment Reminder,R,Q,N,N
+680,INC_APP_SWITCH_SPEC_SERV_DISB_TO_REG_DISB,121,FQIAN,DBO,,INC_APP_SWITCH_SPEC_SERV_DISB_TO_REG_DISB,R,Q,N,N
+681,MEDICAL_BOARD_LTR_OF_RECOMMENDATION,121,FQIAN,DBO,,MEDICAL_BOARD_LTR_OF_RECOMMENDATION,R,Q,N,N
+682,SPEC_SERV_DISABILITY_REQ_FOR_TAX_RETURNS_1ST_REQ,121,FQIAN,DBO,,SPEC_SERV_DISABILITY_REQ_FOR_TAX_RETURNS_1ST_REQ,R,Q,N,N
+683,SPEC_SERV_DISABILITY_REQ_FOR_TAX_RETURNS_2ND_REQ,121,FQIAN,DBO,,SPEC_SERV_DISABILITY_REQ_FOR_TAX_RETURNS_2ND_REQ,R,Q,N,N
+684,SPECIAL_SERVICE_DISABILITY_DISCONTINUED_LETTER,121,FQIAN,DBO,,SPECIAL_SERVICE_DISABILITY_DISCONTINUED_LETTER,R,Q,N,N
+691,RECALC_LETTER_FROM_BATCH,116,DBO,DBO,,Recalculation Letter,R,Q,N,N
+385,Retiree Return to Work Verification Letter,82,DBO,DBO,,Retiree Return to Work Verification Letter,R,Q,Y,Y
+611,OUTDATED_BENEFIT_CHECKS_WARNING_OF_SUSPENSION,122,DBO,DBO,,OUTDATED_BENEFIT_CHECKS_WARNING_OF_SUSPENSION,R,Q,N,N
+634,Incomplete Application for Reemployment Benefit,152,CSTONER,DBO,,Incomplete Application for Reemployment Benefits,R,Q,N,N
+637,MAD_ACCOUNT_RESTRORATION_VERIFICATION,156,CSTONER,DBO,,MAD Account Restroration Verification,R,Q,N,N
+643,REPAYMENTWILLNOTCHANGENOTIFICATIONLETTER,116,CSTONER,DBO,,REPAYMENTWILLNOTCHANGENOTIFICATIONLETTER,R,Q,N,N
+644,BENEFIT_SUSPENSION_CONFIRMATION___EARNINGS_LIMIT,116,CSTONER,DBO,,Benefit Suspension Confirmation - Earnings Limit,R,Q,N,N
+646,CONFIRMATION_BENEFIT_OPTION_CHANGE_LETTER,116,CSTONER,DBO,,CONFIRMATION_BENEFIT_OPTION_CHANGE_LETTER,R,Q,N,N
+647,INCOMPLETE_APP_FOR_REFUND_LUMP_SUM,116,CSTONER,DBO,,Incomplete App for Refund Lump Sum,R,Q,N,N
+648,INCOMPLETE_APP_FOR_AE_LUMP_SUM,116,CSTONER,DBO,,INCOMPLETE_APP_FOR_AE_LUMP_SUM,R,Q,N,N
+649,INCOMPLETE_APP_FOR_RETIREMENT_BENEFITS,116,CSTONER,DBO,,INCOMPLETE_APP_FOR_RETIREMENT_BENEFITS,R,Q,N,N
+651,INCOMPLETE_BENEFIT_OPTIONS_FORM,116,CSTONER,DBO,,INCOMPLETE_BENEFIT_OPTIONS_FORM,R,Q,N,N
+652,AP_INCOMPLETE_REFUND_APP,85,CSTONER,DBO,,AP Incomplete Refund App,R,Q,N,N
+653,APPOINTMENT_CONFIRMATION,85,CSTONER,DBO,,APPOINTMENT_CONFIRMATION,R,Q,N,N
+654,APPOINTMENT_REMINDER,85,CSTONER,DBO,,APPOINTMENT_REMINDER,R,Q,N,N
+606,Reminder for Death Benefit Application,150,DBO,DBO,,Reminder for Death Benefit Application,R,Q,N,N
+342,Address Shell,85,DBO,DBO,,Address Shell,R,Q,Y,Y
+701,AMDB_LETTER_OF_AWARD,150,DBO,DBO,,AMDB Letter of Award,R,Q,N,N
+656,ATTY_IN_FACT_CONF_LTR_TO_MEMBER,85,CSTONER,DBO,,Atty in Fact Conf ltr to Member,R,Q,N,N
+689,SERVICE_PURCHASE_GENERIC_ADDRESS_PAGE,85,CSTONER,DBO,,Service Purchase Generic Address Page,R,Q,N,N
+614,AP Notice of Recalculation,163,DBO,TDILLON,,AP Notice of Recalculation,R,Q,N,N
+658,ATTY_IN_FACT_POWERS_EXPIRED_RESCINDED_TO_MBR,85,CSTONER,DBO,,atty in fact powers expired rescinded to mbr,R,Q,N,N
+660,GENERIC_ADDRESS_PAGE,85,CSTONER,DBO,,Generic Address Page,R,Q,N,N
+661,GENERIC_TITLE_PAGE,85,CSTONER,DBO,,Generic Title Page,R,Q,N,N
+663,INCOMPLETE_DIRECT_DEPOSIT_LETTER,85,CSTONER,DBO,,INCOMPLETE_DIRECT_DEPOSIT_LETTER,R,Q,N,N
+664,INCOMPLETE_TAX_WITHHOLDING_LETTER,85,CSTONER,DBO,,INCOMPLETE_TAX_WITHHOLDING_LETTER,R,Q,N,N
+666,MEMBER_APPOINTMENT_REVISION,85,CSTONER,DBO,,MEMBER_APPOINTMENT_REVISION,R,Q,N,N
+667,MEMBER_CONFERENCE_NOTIFICATION,85,CSTONER,DBO,,MEMBER_CONFERENCE_NOTIFICATION,R,Q,N,N
+668,PAYMENT_METHOD_CHANGE_CONFIRMATION_LETTER,85,CSTONER,DBO,,PAYMENT_METHOD_CHANGE_CONFIRMATION_LETTER,R,Q,N,N
+669,PAYMENT_METHOD_REQUEST_LETTER,85,CSTONER,DBO,,PAYMENT_METHOD_REQUEST_LETTER,R,Q,N,N
+670,REQUEST_FOR_PAYMENT_METHOD_INSTRUCTIONS,85,CSTONER,DBO,,REQUEST_FOR_PAYMENT_METHOD_INSTRUCTIONS,R,Q,N,N
+671,RET_ATTY_IN_FACT_DOC_EXPL_TO_AUTH_AGENT,85,CSTONER,DBO,,RET_ATTY_IN_FACT_DOC_EXPL_TO_AUTH_AGENT,R,Q,N,N
+673,RET_ATTY_IN_FACT_DOC_EXPLAINATION,85,CSTONER,DBO,,RET_ATTY_IN_FACT_DOC_EXPLAINATION,R,Q,N,N
+674,RETURNED_MONTHLY_BENEFIT_CHECK,85,CSTONER,DBO,,Returned Monthly Benefit Check,R,Q,N,N
+675,RETURNED_REP_PAYEE_DOC_EXPL_LETTER_TO_REP_PAYEE,85,CSTONER,DBO,,Returned Rep Payee Doc Expl letter to Rep Payee,R,Q,N,N
+676,TEST123,85,CSTONER,DBO,,test123,R,Q,N,N
+677,TAX_INFORMATION_LETTER__CORRECTED_1099R_,147,CSTONER,DBO,,Tax Information Letter (Corrected 1099R),R,Q,N,N
+655,ALTERNATE_PAYEE_INCOMPLETE_APPLICATION_LETTER,120,FQIAN,DBO,,ALTERNATE_PAYEE_INCOMPLETE_APPLICATION_LETTER,R,Q,N,N
+657,MBR_INITIAL_NOTICE_OF_IRS_LEVY,120,FQIAN,DBO,,MBR_INITIAL_NOTICE_OF_IRS_LEVY,R,Q,N,N
+659,MBR_NOT_IN_ACTIVE_PAY_STATUS_NOTIF__CS,120,FQIAN,DBO,,MBR_NOT_IN_ACTIVE_PAY_STATUS_NOTIF__CS,R,Q,N,N
+662,NO_FUNDS_AVAILABLE_NOTIF__CS_,120,FQIAN,DBO,,NO_FUNDS_AVAILABLE_NOTIF__CS_,R,Q,N,N
+665,QDRO_INITIAL_REQUEST_LETTER,120,FQIAN,DBO,,QDRO Initial Request letter,R,Q,N,N
+713,EMPLOYER_SELF_SERVICE_TEMP_PASSWORD,95,FQIAN,DBO,,Employer Self Service Temp Password,R,Q,N,N
+431,Special Service Occupation Disability Appl Form,121,DBO,DBO,Special Service Occupation Disability App Form.rtf,Special Service Occupation Disability Appl Form,R,Q,Y,Y
+628,IPERS_LOGO_TEST,122,CSTONER,DBO,,ipers logo test,R,Q,N,N
+629,OUTDATED_WARRANT_DECEASED_LOCATE_HEIRS__BANK__EST,122,CSTONER,DBO,,Outdated Warrant-Deceased-Locate Heirs- Bank- Est,R,Q,N,N
+630,OUTDATED_WARRANT_AFFIDAV__FOR_DECEASED,122,CSTONER,DBO,,OUTDATED_WARRANT_AFFIDAV__FOR_DECEASED,R,Q,N,N
+631,OUTDATED_WARRANT_NOTIF_OF_SUSPENSION,122,CSTONER,DBO,,OUTDATED_WARRANT_NOTIF_OF_SUSPENSION,R,Q,N,N
+632,OW_DECEASED_MEMBER___SINGLE_HEIR_LETTER,122,CSTONER,DBO,,OW_DECEASED_MEMBER___SINGLE_HEIR_LETTER,R,Q,N,N
+633,OW_DECEASED_MEMBER_MULTIPLE_HEIRS_LETTER,122,CSTONER,DBO,,OW_DECEASED_MEMBER_MULTIPLE_HEIRS_LETTER,R,Q,N,N
+638,MAD_REVERSAL_REJECTION_LETTER,156,CSTONER,DBO,,MAD Reversal Rejection Letter,R,Q,N,N
+639,NOTICE_OF_MANDATORY_ACCOUNT_DISTRIBUTION,156,CSTONER,DBO,,Notice of Mandatory Account Distribution,R,Q,N,N
+640,SERV_PURCH_RESCIND_DENIAL_LTR,127,CSTONER,DBO,,SERV PURCH RESCIND DENIAL LTR,R,Q,N,N
+641,SERVICE_PURCHASE_APP_REJECT_LETTER,127,CSTONER,DBO,,SERVICE_PURCHASE_APP_REJECT_LETTER,R,Q,N,N
+678,DIRECT_DEPOSIT_AUTH___MEMBER,82,CSTONER,DBO,,DIRECT_DEPOSIT_AUTH___MEMBER,R,Q,N,N
+679,LOGO,82,CSTONER,DBO,,logo,R,Q,N,N
+688,BENEFICIARY_GENERIC_ADDRESS_PAGE,85,CSTONER,DBO,,Beneficiary Generic Address Page,R,Q,N,N
+341,Address Confirmation-New Address,81,DBO,DBO,,Address Confirmation-New Address,R,Q,Y,Y
+710,AFFIDAVIT_REGARDING_INABILITY_TO_LOCATE_SPOUSE,110,DMEYER,DBO,,Affidavit Regarding Inability to Locate Spouse,R,Q,N,N
+625,SPEC_SERV_DISABILITY_SUSPENSION,121,DBO,DBO,,SPEC_SERV_DISABILITY_SUSPENSION,R,Q,N,N
+626,BENEFICIARY_RECLAMATION,157,DBO,DBO,,Beneficiary Reclamation,R,Q,N,N
+627,MEMBER_RECLAMATION,157,DBO,TDILLON,,Member Reclamation,R,Q,N,N
+697,MBR_BENEFIT_STMT_MSS,158,DBO,DBO,Member_Annual_Statement.jrxml,MSS Annual Statement,J,Q,N,N
+700,CSW_INSTITUTION_LETTER,154,CSTONER,DBO,,CSW Institution Letter,R,Q,N,N
+685,MINI_BROCHURE_ADDRESS__PAGE,85,CSTONER,DBO,,Generic Mini Brochure Address  Pg,R,Q,N,N
+407,MANUAL_WAGE_OR_ERROR_CONFIRMATION,91,schance,DBO,Individual RPA Form.rtf,Individual RPA Form,R,Q,Y,Y
+406,DENIED EMPLOYER ENROLLMENT APPLICATION,95,schance,DBO,Tax_Withholding_Form.jrxml,Tax Withholding Form,J,Q,Y,Y
+410,COMPLIANCE_REVIEW_RESULTS_LETTER,92,schance,DBO,Request for Outstanding Warrant Action Form.rtf,Request for Outstanding Warrant Action Form,R,Q,Y,Y
+401,ELECTRONIC_WR_WAIVER_GRANTED,91,sstilwe,DBO,Retirement_Benefit_Estimate.jrxml,MAD Pre-Notification Letter,J,Q,Y,Y
