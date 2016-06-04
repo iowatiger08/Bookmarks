@@ -85,7 +85,7 @@ public class CoreContextConfiguration {
 			JndiObjectFactoryBean factoryBean = new JndiObjectFactoryBean();
 			factoryBean.setDefaultObject(getDefaultDataSource());
 			factoryBean.setExpectedType(DataSource.class);
-			factoryBean.setJndiName("jdbc/IQueDatasource");
+			factoryBean.setJndiName("jdbc/MyQueDatasource");
 			factoryBean.setResourceRef(true);
 			factoryBean.afterPropertiesSet();
 			return (DataSource) factoryBean.getObject();
@@ -103,7 +103,7 @@ public class CoreContextConfiguration {
 	@Bean
 	public SessionFactory sessionFactory(){
 		String[] packages = {
-			"org.ipers.docbookmarks.model"
+			"com.tigersndragons.docbookmarks.model"
 		};
 		
 		Properties hibernateProperties = new Properties();
