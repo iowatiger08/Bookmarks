@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	@Qualifier("loginService")
 	LoginService loginService;
-	private final String LDAP_URL="ipers09.ipers.local";
+	private final String LDAP_URL="ldap09.ldap.local";
  
 	@Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
@@ -58,7 +58,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Bean
 	public ActiveDirectoryLdapAuthenticationProvider activeDirectoryLdapAuthenticationProvider(){
-		ActiveDirectoryLdapAuthenticationProvider provider = new ActiveDirectoryLdapAuthenticationProvider("ipers.local", "ldap://"+LDAP_URL+":389");
+		ActiveDirectoryLdapAuthenticationProvider provider = new ActiveDirectoryLdapAuthenticationProvider("ldap.local", "ldap://"+LDAP_URL+":389");
 		provider.setUseAuthenticationRequestCredentials(true);
 		provider.setUserDetailsContextMapper(userDetailMapper());
 		provider.setConvertSubErrorCodesToExceptions(true);
@@ -82,7 +82,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public LdapContextSource contextSource(){
 		LdapContextSource context = new LdapContextSource();
 		context.setUrl("ldap://"+LDAP_URL+":389");
-		context.setBase("DC=ipers,DC=local");
+		context.setBase("DC=ldapdc,DC=local");
 		context.setUserDn("sAMAccountName=username");
 		context.setPassword("password");
 		return context;

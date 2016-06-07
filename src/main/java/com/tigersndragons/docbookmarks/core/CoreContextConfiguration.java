@@ -6,6 +6,7 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import com.tigersndragons.docbookmarks.controller.AcctController;
 import com.tigersndragons.docbookmarks.service.impl.CustomUserDetailsService;
 import liquibase.integration.spring.SpringLiquibase;
 
@@ -43,7 +44,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.ipers.docbookmarks.*")
+@ComponentScan("com.tigersndragons.docbookmarks.*")
 @Import({
 	SecurityConfig.class,
 	WebMVCConfiguration.class
@@ -86,6 +87,7 @@ public class CoreContextConfiguration {
 			factoryBean.setDefaultObject(getDefaultDataSource());
 			factoryBean.setExpectedType(DataSource.class);
 			factoryBean.setJndiName("jdbc/MyQueDatasource");
+			//has to be set in tomcat container
 			factoryBean.setResourceRef(true);
 			factoryBean.afterPropertiesSet();
 			return (DataSource) factoryBean.getObject();
@@ -183,5 +185,10 @@ public class CoreContextConfiguration {
 		hc.setDocBookmarkService(docBookmarkService());
 		return hc;
 	}
-
+	@Bean
+	public AcctController acctController(){
+		AcctController hc = new AcctController();
+		hc.setLoginService(loginService());
+		return hc;
+	}
 }
